@@ -20,7 +20,7 @@
 		escribehistoria ('la app se desconecto');
 	},false);//se desconecto
 	
-	},false);//readu device
+	},false);//ready device
 	
 });//document
 
