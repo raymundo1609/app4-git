@@ -17,95 +17,94 @@
 
 </head> 
 <body> 
-	<div data-role="page" id="Principal" data-theme="a">
-    <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="b">
-     <h1>Datos del dispositivo</h1>
+<div data-role="page" id="Principal"  data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Datos del Dispositivo</h1>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+      <div> 
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+      <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+      <h2> Dispositivo</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> Eventos </h2>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4> Raymundo Ange Vazquez Rojas </h4>
+   <img src="res/android/mdpi.png" width="128" height="128">
+  </div>
+ </div>
+ 
+  <div data-role="page" id="page2" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Dispositivo</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+     <div id="disp">
+     <table width="200" border="1" id="datos">
+     <tr>
+      <td width="83"> Datos </td>
+      <td width="101"> Dispositivo </td>
+     </tr>
+     <tr>
+      <td> Nombre </td>
+      <td>  </td>
+     </tr>
+      <tr>
+      <td> Phonegap </td>
+      <td>  </td>
+     </tr>
+      <tr>
+      <td> Plataforma </td>
+      <td>  </td>
+     </tr>
+      <tr>
+      <td> Version </td>
+      <td>  </td>
+     </tr>
+      <tr>
+      <td> UUID </td>
+      <td>  </td>
+     </tr>
+  </table>
     </div>
-    
-    <div data-role="main" class="ui-content">
-    <div>
-    	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
-     	<li class="ui-first-child ui-last-child">
-       	<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-       	<h2>Dispisitivo</h2>
-        </a>
-     	</li>
-     	<li class="ui-first-child ui-last-child">
-       	<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-       	<h2>Eventos</h2>
-       	</a>
-     	</li>
-        </ul>
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4> Raymundo Ange Vazquez Rojas </h4>
+   <img src="res/android/mdpi.png" width="128" height="128" >
+   </div>
+  </div>
+  
+   <div data-role="page" id="page3" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1> Eventos </h1>
      </div>
-     </div>
+     <div data-role="main" class="ui-content">
+      <div>
+      <h2> Historia</h2>
+     <ul id="eHistoria">
+     </ul>
+    </div>
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <h4> Raymundo Ange Vazquez Rojas</h4>
+       <img src="res/android/mdpi.png" width="128" height="128" >
+    </div>
+   </div>
+
+ 
+  </body>
      
-     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
-     <div>
-      <img src="imagenes/Folder-Settings-Tools-icon.png" width="46" height="46">
-     </div>
-     <div>
-      <h4>Aplicacion cuatro</h4>
-      <h4>Raymundo Angel Vazquez Rojas</h4>
-     </div>
-    </div>
-    </div>
-     
-     <div data-role="page" id="page2" data-theme="b">
-     	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regrtesar" data-back-btn-theme="a">
-        	<h1>Dispositivo</h1>
-        </div>
-        <div data-role="main" class="ui-content">
-        <div id="disp">
-        	<table width="200" border="1" id="datos">
-            <tr>
-            	<td width="83"> datos</td>
-                <td width="101">dispositivo</td>
-           </tr>
-           <tr>
-            	<td > nombre</td>
-                <td></td>
-           </tr>
-           <tr>
-            	<td> phonegap</td>
-                <td></td>
-           </tr>
-           <tr>
-            	<td > plataforma</td>
-                <td></td>
-           </tr>
-           <tr>
-            	<td> versión</td>
-                <td></td>
-           </tr>
-           <tr>
-            	<td > UUID</td>
-                <td></td>
-           </tr>
-           </table>
-        </div>
-       </div>
-           <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-           	<h4>Raymundo Angel Vazquez Rojas</h4>
-            <img src="res/android/mdpi.png" width="56" height="46">
-            </div>
-            </div>
-       
-       <div data-role="page" id="page3" data-theme="b">
-     	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regrtesar" data-back-btn-theme="a">
-        	<h1>Eventos</h1>
-        </div> 
-        <div data-role="main" class="ui-content">
-        	<div>
-            	<h2>Historia</h2> 
-                <ul id="eHistoria">
-                </ul>
-             </div>
-        </div>
-        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-           	<h4>Raymundo Angel Vazquez Rojas</h4>
-            <img src="res/android/mdpi.png" width="56" height="46">
-          </div>
-       </div>
-          
-</body>
 </html>
